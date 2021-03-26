@@ -538,8 +538,8 @@ button{
 {
 	background-image:('https://image.freepik.com/free-vector/frameless-phone-with-thin-borders-blank-empty-screen_172933-478.jpg')
 }
- .iphone {
-    background:url('images/Phone.png') no-repeat;
+ .iphone	 {
+    background-image:url('https://www.igeeksblog.com/wp-content/uploads/2021/03/Best-Cryptocurrency-Apps-for-iPhone-iPad.jpg') no-repeat;
     height: 500px;
     width: 250px;
     background-image:center;
@@ -701,8 +701,6 @@ margin-top:100px;
 {
 text-align:center;
 }
-
-
 footer .main-footer{  padding: 20px 0;  background: #252525;}
 footer ul{  padding-left: 0;  list-style: none;}
 
@@ -834,6 +832,12 @@ input.submitbutton.ripplelink {
  {
  	margin-top:100px;
  }
+ @media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .navbar .fixed-top{
+    width:50%;
+}
+}
 
 /*.button span {
   cursor: pointer;
